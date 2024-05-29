@@ -13,4 +13,4 @@ const array = [1, 2, 3, 4, 5];
 const filteredArray = filter(array, function(element) {
     return element % 2 === 0; // Filtrar números pares
 });
-console.log(filteredArray); // Output: [2, 4]
+console.table(filteredArray); // Output: [2, 4]
